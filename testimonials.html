@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tamarind Tales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Team</a>
+    <a href="testimonials.html">Testimonals</a>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #fdfaf6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .testimonials {
+      padding: 80px 10%;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2.8rem;
+      color: #5c3d2e;
+      margin-bottom: 15px;
+    }
+
+    .section-subtitle {
+      color: #777;
+      max-width: 650px;
+      margin: 0 auto 60px;
+      font-size: 1.05rem;
+    }
+
+    .testimonial-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .testimonial-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      transition: 0.3s ease;
+      position: relative;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .quote {
+      font-size: 3rem;
+      color: #d8a35d;
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      opacity: 0.3;
+    }
+
+    .review {
+      margin-top: 30px;
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 25px;
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #d8a35d;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .user-info h4 {
+      color: #5c3d2e;
+      font-size: 1.1rem;
+    }
+
+    .user-info p {
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    .stars {
+      color: #f4b400;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 2.2rem;
+      }
+
+      .testimonials {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class="testimonials">
+  <h1 class="section-title">Stories from Our Readers</h1>
+  <p class="section-subtitle">
+    At Tamarind Tales, every story leaves a memory. Here's what our readers and community have to say about their journey with us.
+  </p>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial-card">
+      <div class="quote">“</div>
+      <p class="review">
+        Tamarind Tales beautifully captures emotions and culture. Every article feels like sitting under a tamarind tree listening to stories.
+      </p>
+
+      <div class="user">
+        <div class="avatar">A</div>
+        <div class="user-info">
+          <h4>Ananya R.</h4>
+          <p>Regular Reader</p>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="quote">“</div>
+      <p class="review">
+        The storytelling and design are incredibly engaging. Tamarind Tales has become my favorite place to discover meaningful content.
+      </p>
+
+      <div class="user">
+        <div class="avatar">V</div>
+        <div class="user-info">
+          <h4>Vikram S.</h4>
+          <p>Story Enthusiast</p>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="quote">“</div>
+      <p class="review">
+        Every visit feels warm and nostalgic. The stories remind me of home and connect me with traditions in a beautiful way.
+      </p>
+
+      <div class="user">
+        <div class="avatar">M</div>
+        <div class="user-info">
+          <h4>Meera K.</h4>
+          <p>Community Member</p>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

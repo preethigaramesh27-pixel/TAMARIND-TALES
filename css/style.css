@@ -1,0 +1,177 @@
+nav {
+    background-color: brown;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.hero{
+    height:500px;
+    background-image:url("../images/tn food.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding-top:200px;
+}
+.btn{
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: darkred;
+}
+.about{
+    background-image:
+        linear-gradient(rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
+        url("../images/thumbnail.jpeg");
+
+    color: #F5E6C8;
+    text-align: center;
+    padding: 100px 30px;
+}
+.menu{
+    text-align:center;
+    padding:40px;
+}
+
+.menu-item{
+    display:inline-block;
+    width:300px;
+    margin:20px;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.menu-item img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.menu-item{
+    transition:0.3s;
+}
+
+.menu-item:hover{
+    transform:translateY(-10px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery{
+    text-align:center;
+    padding:40px;
+}
+
+.gallery img{
+    width:250px;
+    height:200px;
+    object-fit:cover;
+    margin:15px;
+    border-radius:10px;
+}
+.gallery img{
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.1);
+}
+.faq{
+    padding:40px;
+    max-width:800px;
+    margin:auto;
+}
+
+.faq h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.faq h3{
+    color:brown;
+    margin-top:20px;
+}
+.contact{
+    background-image: url("../images/j.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    color: white;
+    text-align: center;
+
+    padding: 100px 30px;
+}
+#topBtn{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    z-index: 9999;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+@media(max-width:768px){
+
+    .menu-item{
+        width:90%;
+    }
+
+    nav a{
+        display:block;
+        padding:10px;
+    }
+}
+.active{
+    background-color:#8B4513;
+    color:white;
+    border-radius:5px;
+}
+body{
+    animation:fadeIn 1s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.team-card img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tamarind Tales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Team</a>
+    <a href="testimonials.html">Testimonials</a>
+</nav>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f8f8f8;
+        }
+
+        .team-section{
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .team-section h1{
+            font-size:40px;
+            color:#333;
+            margin-bottom:15px;
+        }
+
+        .team-section p{
+            color:#666;
+            max-width:700px;
+            margin:auto;
+            margin-bottom:40px;
+        }
+
+        .team-container{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:30px;
+        }
+
+        .team-card{
+            background:white;
+            width:280px;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 4px 15px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .team-card:hover{
+            transform:translateY(-8px);
+        }
+
+        .team-card img{
+            width:100%;
+            height:300px;
+            object-fit:cover;
+        }
+
+        .team-info{
+            padding:20px;
+        }
+
+        .team-info h3{
+            color:#222;
+            margin-bottom:8px;
+        }
+
+        .team-info h4{
+            color:#d35400;
+            margin-bottom:10px;
+        }
+
+        .team-info p{
+            font-size:14px;
+            color:#666;
+            margin-bottom:0;
+        }
+    </style>
+</head>
+<body>
+
+<section class="team-section">
+    <h1>Meet Our Culinary Team</h1>
+    <p>
+        The passionate professionals behind Feastopia work tirelessly to create
+        memorable dining experiences with authentic flavors and exceptional service.
+    </p>
+
+    <div class="team-container">
+
+        <div class="team-card">
+            <img src="images/pavi.jpeg" alt="Head Chef">
+            <div class="team-info">
+                <h3>Pavithra kuppusamy</h3>
+                <h4>Head Chef</h4>
+                <p>Bringing over 15 years of expertise in traditional Indian cuisine and modern culinary innovation.</p>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="images/jai 3.jpeg" alt="Sous Chef">
+            <div class="team-info">
+                <h3>Jeya varthini palani</h3>
+                <h4>Sous Chef</h4>
+                <p>Specialist in South Indian delicacies and creative menu development.</p>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="images/ak3
+            .jpeg" alt="Restaurant Manager">
+            <div class="team-info">
+                <h3> Akshaya veerapandi
+                     </h3>
+                <h4>Restaurant Manager</h4>
+                <p>Dedicated to ensuring excellent customer service and seamless restaurant operations.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
